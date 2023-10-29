@@ -12,6 +12,7 @@
   "devDependencies": {
     "@sveltejs/adapter-auto": "^2.0.0",
     "@sveltejs/adapter-static": "^2.0.3",
+    "@sveltejs/adapter-vercel": "^3.0.3",
     "@sveltejs/kit": "^1.20.4",
     "@tailwindcss/forms": "^0.5.3",
     "@tailwindcss/typography": "^0.5.9",
@@ -22,7 +23,8 @@
     "svelte-check": "^3.4.3",
     "tailwindcss": "^3.3.2",
     "typescript": "^5.0.0",
-    "vite": "^4.4.2"
+    "vercel": "^32.5.0",
+    "vite": "^4.5.0"
   },
   "type": "module",
   "dependencies": {

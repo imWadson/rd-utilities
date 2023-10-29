@@ -3,7 +3,7 @@
       <img src="Logo.png" alt="RD Utilities Logo">
     </div>
     <div class="pt-1  relative mx-auto text-white">
-    <input class="border-0 border-b-2 border-gray-300 bg-teal-500 h-10 px-10 pr-10 text-xs focus:outline-none text-placeholder-[#FFFF]"
+    <input class="border-0 border-b-2 border-gray-300 bg-[#38B2AC] h-10 px-10 pr-10 text-xs focus:outline-none text-placeholder-[#FFFF]"
         type="search" name="search" placeholder="Fazer uma busca...">
       <button type="submit" class="absolute right-0 top-0 mt-5 mr-4">
         <svg class="text-gray-600 h-4 w-4 fill-current" xmlns="http://www.w3.org/2000/svg"
