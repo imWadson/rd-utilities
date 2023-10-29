@@ -1,9 +1,0 @@
-MAIN=index.js
-MEMORY=512
-VERSION=recommended
-DISPLAY_NAME=RD Utilities
-DESCRIPTION=Utilidades para projetista
-AVATAR=
-SUBDOMAIN=rdutilties
-START=server -l 8080
-AUTORESTART=true
