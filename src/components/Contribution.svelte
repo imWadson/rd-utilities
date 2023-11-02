@@ -1,4 +1,4 @@
-<section class="py-10 bg-gray-100 sm:py-16 lg:py-24">
+<section id="contrib" class="py-10 bg-gray-100 sm:py-16 lg:py-24">
     <div class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
         <div class="max-w-2xl mx-auto text-center">
             <h2 class="text-3xl font-bold leading-tight text-gray-800 sm:text-4xl lg:text-4xl">CONTRIBUIDORES <span class="text-teal-600">RD UTILITIES</span></h2>
@@ -18,7 +18,7 @@
                         </div>
                     </div>
                     <blockquote class="mt-7">
-                        <p class="text-lg text-black italic">“Seria interessante inserir normas tecnicas e  aplicações para manipular PDF. como: Juntar PDF, JPG para PDF”</p>
+                        <p class="text-lg text-black italic">“Seria pertinente considerar a inclusão de diretrizes técnicas e procedimentos para a manipulação de documentos em formato PDF, tais como a fusão de documentos PDF e a conversão de imagens em formato JPG para PDF.”</p>
                     </blockquote>
                     <p class="text-base font-semibold tex-tblack mt-9">André Luis Ramos</p>
                     <p class="mt-1 text-base text-gray-600">Engenheiro Eletricista</p>
@@ -38,7 +38,7 @@
                         </div>
                     </div>
                     <blockquote class="mt-7">
-                        <p class="text-lg text-black italic">“Segurança no Setor Elétrico: Recursos, Ferramentas e Normas para um Ambiente de Trabalho Protegid”</p>
+                        <p class="text-lg text-black italic">“Segurança no Setor Elétrico: Recursos, Ferramentas e Normas para um Ambiente de Trabalho Protegido”</p>
                     </blockquote>
                     <p class="text-base font-semibold tex-tblack mt-9">Maria Werica</p>
                     <p class="mt-1 text-base text-gray-600">Engenheira de Segurança do Trabalho</p>
@@ -58,7 +58,7 @@
                         </div>
                     </div>
                     <blockquote class="mt-7">
-                        <p class="text-lg text-black italic">“Seria interessante alguma informação relacionado as bitolas dos cabos de MT e BT e estruturas”</p>
+                        <p class="text-lg text-black italic">“Seria apropriada a inclusão de informações relacionadas às dimensões das seções transversais dos cabos de média e baixa tensão, bem como das estruturas correspondentes.”</p>
                     </blockquote>
                     <p class="text-base font-semibold tex-tblack mt-9">Carlos Henrique</p>
                     <p class="mt-1 text-base text-gray-600">Tecnico do setor Eletrico</p>

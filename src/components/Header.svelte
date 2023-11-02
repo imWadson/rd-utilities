@@ -1,12 +1,27 @@
+<script>
+	function handleAnchorClick (event) {
+		event.preventDefault();
+		const link = event.currentTarget
+		const anchorId = new URL(link.href).hash.replace('#', '')
+		const anchor = document.getElementById(anchorId)
+		window.scrollTo({
+			top: anchor.offsetTop,
+			behavior: 'smooth'
+		})
+	}
+</script>
+
+
+
 <nav class="flex items-center justify-between flex-wrap bg-[#38B2AC]  p-2 ">
     <div class="flex items-center flex-shrink-0 text-white  mr-6">
       <img src="Logo.png" alt="RD Utilities Logo">
     </div>
     <div class="pt-1  relative mx-auto text-white">
-    <input class="border-0 border-b-2 border-gray-300 bg-[#38B2AC] h-10 px-10 pr-10 text-xs focus:outline-none text-placeholder-[#FFFF]"
+    <input class="border-0 border-b-2 border-gray-300 bg-[#38B2AC] h-10 px-10 pr-10 text-xs focus:outline-white placeholder:text-gray-300"
         type="search" name="search" placeholder="Fazer uma busca...">
       <button type="submit" class="absolute right-0 top-0 mt-5 mr-4">
-        <svg class="text-gray-600 h-4 w-4 fill-current" xmlns="http://www.w3.org/2000/svg"
+        <svg class="text-gray-100 h-4 w-4 fill-current" xmlns="http://www.w3.org/2000/svg"
           xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px"
           viewBox="0 0 56.966 56.966" style="enable-background:new 0 0 56.966 56.966;" xml:space="preserve"
           width="512px" height="512px">
@@ -20,19 +35,19 @@
         <svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/></svg>
       </button>
     </div>
-    <div class="inline-block">
+    <div class="inline-block font-bold">
       <div class="text-sm lg:flex-grow">
         <a href="/" class="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-white mr-4">
           Inicio
         </a>
-        <a href="/" class="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-white mr-4">
-          Sobre
+        <a href="#contrib" on:click={handleAnchorClick} class="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-white mr-4">
+          Contribuidores
         </a>
         <a href="/" class="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-white mr-4">
-          Projetos
+          Sobre o projeto
         </a>
-        <a href="/" class="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-white mr-4">
-          Contato
+        <a href="#contact" on:click={handleAnchorClick} class="block mt-4 lg:inline-block lg:mt-0 text-teal-600  mr-4">
+          <div class="bg-white rounded-md p-2">Contato</div>
         </a>
       </div>
     </div>
